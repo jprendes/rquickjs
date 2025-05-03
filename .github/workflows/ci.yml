@@ -5,6 +5,7 @@ on:
       - master
       - update-bindings
   pull_request:
+  workflow_dispatch:
 
 # Only run on the latest ref
 concurrency:
